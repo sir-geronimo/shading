@@ -21,12 +21,12 @@ void fragment() {
 }
 ```
 
-<expand>
-<summary>Preview</summary>
 <details>
+<summary>Preview</summary>
+	
 ![preview](images/brightness.png)
+
 </details>
-</expand>
 
 2. Now let's create a mask for which colours (pixels) to replace.
 
@@ -48,12 +48,12 @@ void fragment() {
 }
 ```
 
-<expand>
-<summary>Preview</summary>
 <details>
+<summary>Preview</summary>
+	
 ![preview](images/mask.png)
+
 </details>
-</expand>
 
 3. Let's remove the mask from the original sprite.
 
@@ -75,6 +75,13 @@ void fragment() {
 }
 ```
 
+<details>
+<summary>Preview</summary>
+	
+![preview](images/left.png)
+
+</details>
+
 4. Finally the mask can be used to remove the masked pixels from the final sprite.
 
 ```gdshader
@@ -95,9 +102,9 @@ void fragment() {
 }
 ```
 
-<expand>
-<summary>Preview</summary>
 <details>
+<summary>Preview</summary>
+
 ![preview](images/final.png)
+
 </details>
-</expand>
